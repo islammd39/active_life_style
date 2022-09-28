@@ -1,0 +1,12 @@
+.active-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+
+}
+.card-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: auto;
+    gap: 40px;
+    padding: 20px 0px;
+}

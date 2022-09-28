@@ -1,0 +1,25 @@
+.card{
+    height: 380px;
+    width: 260px;
+    border: 2px solid gray;
+    position: relative;
+}
+
+.card img{
+    height: 200px;
+    width: 260px;
+}
+
+.card-btn{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #ff6d38;
+    border: none;
+    cursor: pointer;
+}
+.card-btn:hover{
+    background-color: #b83809;
+    color: #fff;
+}
