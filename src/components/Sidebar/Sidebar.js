@@ -1,6 +1,5 @@
 import React from 'react';
 import Break from '../Break/Break';
-import Details from '../Details/Details';
 import Myinfo from '../Myinfo/Myinfo';
 import './Sidebar.css'
 
