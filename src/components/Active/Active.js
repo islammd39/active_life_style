@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Card from '../Card/Card';
 import Sidebar from '../Sidebar/Sidebar';
 import './Active.css'
-import { faCocktail, faDumbbell } from '@fortawesome/free-solid-svg-icons';
+import { faDumbbell } from '@fortawesome/free-solid-svg-icons';
 import Blog from '../Blog/Blog';
 
 const Active = () => {
