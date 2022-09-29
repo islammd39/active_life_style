@@ -1,3 +1,11 @@
+
+.right-container{
+    background-color: navajowhite;
+    padding: 0px 15px;
+    margin: 0px 15px 0px 0px;
+}
+
+
 .active-container{
     display: grid;
     grid-template-columns: 4fr 1fr;

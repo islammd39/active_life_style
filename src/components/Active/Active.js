@@ -20,7 +20,7 @@ const Active = () => {
                 activities.map(active => <Card key={active.img} active={active}></Card>)
             }
            </div>
-           <div>
+           <div className='right-container'>
                <Sidebar></Sidebar>
            </div>
           </div>
