@@ -15,6 +15,7 @@ const Sidebar = ({card}) => {
            <Break></Break>
            <h4>Activities Details</h4>
             <p>Activities Time : {time}mins</p>
+            
            <button className='completed-btn'><p>Activities Completed</p></button>
         </div>
     );
