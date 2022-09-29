@@ -7,7 +7,7 @@ const Sidebar = ({card}) => {
     // console.log(card);
     let time = 0
     for(const active of card){
-        time = Number(time + active.timeRequired)
+        time = time + active.timeRequired
     }
     return (
         <div className='side-bar'>
@@ -15,7 +15,6 @@ const Sidebar = ({card}) => {
            <Break></Break>
            <h4>Activities Details</h4>
             <p>Activities Time : {time}mins</p>
-            <p>Break Time : </p>
            <button className='completed-btn'><p>Activities Completed</p></button>
         </div>
     );
