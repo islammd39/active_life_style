@@ -4,6 +4,7 @@ import Card from '../Card/Card';
 import Sidebar from '../Sidebar/Sidebar';
 import './Active.css'
 import { faCocktail, faDumbbell } from '@fortawesome/free-solid-svg-icons';
+import Blog from '../Blog/Blog';
 
 const Active = () => {
     const [activities,setActivities]=useState([])
@@ -21,8 +22,10 @@ const Active = () => {
     }
     return (
         <div className='act'>
-             <h1><FontAwesomeIcon icon={faDumbbell}></FontAwesomeIcon>Active Life</h1>
+           <blockquote>
+           <h1><FontAwesomeIcon icon={faDumbbell}></FontAwesomeIcon>Active Life</h1>
             <h4>Select Your Activities</h4>
+           </blockquote>
           <div className='active-container'>
           <div className='card-grid'>
             {
@@ -34,7 +37,7 @@ const Active = () => {
                <Sidebar card ={card}></Sidebar>
            </div>
           </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quibusdam non eum, optio ratione quo illo atque placeat, alias eligendi harum ex laborum quos quam id a nihil cupiditate perspiciatis?</p>
+          <Blog></Blog>
         </div>
     );
 };
