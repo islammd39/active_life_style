@@ -1,3 +1,12 @@
-/* .side-bar{
-    background-color: #acffff;
-} */
+.completed-btn{
+    width: 100%;
+    background-color: #0cffd7;
+    border: none;
+    border-radius: 5px;
+}
+
+.completed-btn:hover{
+    background-color: #02ae92;
+    color: #fff;
+    cursor: pointer;
+}

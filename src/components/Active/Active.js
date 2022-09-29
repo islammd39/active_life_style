@@ -5,11 +5,18 @@ import './Active.css'
 
 const Active = () => {
     const [activities,setActivities]=useState([])
+    const [card,setCard]=useState([])
     useEffect(()=>{
         fetch('active.json')
         .then(res=> res.json())
         .then(data => setActivities(data))
     },[])
+    const handle = (active)=>{
+        // console.log(active.timeRequired);
+        const Newcard = active.timeRequired
+        setCard(Newcard)
+        // console.log(Newcard);
+    }
     return (
         <div className='act'>
              <h1>Active Life</h1>
@@ -17,11 +24,12 @@ const Active = () => {
           <div className='active-container'>
           <div className='card-grid'>
             {
-                activities.map(active => <Card key={active.img} active={active}></Card>)
+                activities.map(active => <Card key={active.img} active={active} handle={handle}></Card>)
             }
            </div>
            <div className='right-container'>
-               <Sidebar></Sidebar>
+            {/* <h1>{card.length}</h1> */}
+               <Sidebar card ={card}></Sidebar>
            </div>
           </div>
         </div>
