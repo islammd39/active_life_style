@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Card from '../Card/Card';
+import Sidebar from '../Sidebar/Sidebar';
 import './Active.css'
 
 const Active = () => {
@@ -20,7 +21,7 @@ const Active = () => {
             }
            </div>
            <div>
-               <h2>info</h2>
+               <Sidebar></Sidebar>
            </div>
           </div>
         </div>
