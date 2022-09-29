@@ -5,12 +5,16 @@ import './Sidebar.css'
 
 const Sidebar = ({card}) => {
     // console.log(card);
+    let time = 0
+    for(const active of card){
+        time = Number(time + active.timeRequired)
+    }
     return (
         <div className='side-bar'>
            <Myinfo></Myinfo>
            <Break></Break>
            <h4>Activities Details</h4>
-            <p>Activities Time : {card}</p>
+            <p>Activities Time : {time}mins</p>
             <p>Break Time : </p>
            <button className='completed-btn'><p>Activities Completed</p></button>
         </div>

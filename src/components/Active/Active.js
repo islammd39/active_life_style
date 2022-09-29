@@ -13,7 +13,7 @@ const Active = () => {
     },[])
     const handle = (active)=>{
         // console.log(active.timeRequired);
-        const Newcard = active.timeRequired
+        const Newcard = [...card,active]
         setCard(Newcard)
         // console.log(Newcard);
     }

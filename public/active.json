@@ -2,63 +2,63 @@
     {
       "id": "124e13b9-2d54",
       "name": "Boxing",
-      "timeRequired": "30s",
+      "timeRequired": 10,
       "img": "https://images.pexels.com/photos/9944898/pexels-photo-9944898.jpeg?auto=compress&cs=tinysrgb&w=600"
 
     },
     {
       "id": "124e13b9-2d54",
       "name": "Cardio",
-      "timeRequired": "40s",
+      "timeRequired": 15,
       "img": "https://images.pexels.com/photos/3965395/pexels-photo-3965395.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
 
     },
     {
       "id": "4b2f-a74d-a77b362d6ead",
       "name": "Running",
-      "timeRequired": "500s",
+      "timeRequired": 25,
       "img": "https://images.pexels.com/photos/8381745/pexels-photo-8381745.jpeg?auto=compress&cs=tinysrgb&w=600"
 
     },
     {
       "id": "124e13b9-6ead",
       "name": "Golf",
-      "timeRequired": "300s",
+      "timeRequired": 30,
       "img": "https://images.pexels.com/photos/6542381/pexels-photo-6542381.jpeg?auto=compress&cs=tinysrgb&w=600"
 
     },
     {
       "id": "a74d-a77b362d6ead",
       "name": "Video Gaming",
-      "timeRequired": "50s",
+      "timeRequired": 30,
       "img": "https://images.pexels.com/photos/1174746/pexels-photo-1174746.jpeg?auto=compress&cs=tinysrgb&w=600"
 
     },
     {
       "id": "13b9-2d54-4b2f",
       "name": "Swimming",
-      "timeRequired": "200s",
+      "timeRequired": 20,
       "img": "https://images.pexels.com/photos/12615996/pexels-photo-12615996.jpeg?auto=compress&cs=tinysrgb&w=600"
 
     },
     {
       "id": "124e13b9-2-a77b362d6ead",
       "name": "Drawing",
-      "timeRequired": "110s",
+      "timeRequired": 40,
       "img": "https://images.pexels.com/photos/12294831/pexels-photo-12294831.jpeg?auto=compress&cs=tinysrgb&w=600"
 
     },
     {
       "id": "124e13b9-2db362d6ead",
       "name": "Yoga",
-      "timeRequired": "130s",
+      "timeRequired": 60,
       "img": "https://images.pexels.com/photos/6787202/pexels-photo-6787202.jpeg?auto=compress&cs=tinysrgb&w=600"
 
     },
     {
       "id": "124ef-a74d-a77b362d6ead",
       "name": "Dancing",
-      "timeRequired": "200s",
+      "timeRequired": 40,
       "img": "https://images.pexels.com/photos/358010/pexels-photo-358010.jpeg?auto=compress&cs=tinysrgb&w=600"
 
     }

@@ -9,7 +9,7 @@ const Card = (props) => {
              
             <img src={img} alt=".." />
             <h4>{name}</h4>
-            <p>Time Required : {timeRequired}</p>
+            <p>Time Required : {timeRequired}mins</p>
             <button onClick={()=>handle(props.active)} className='card-btn'><p>Add To list</p></button>
         </div>
     );
