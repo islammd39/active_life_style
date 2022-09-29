@@ -14,9 +14,9 @@ const Break = () => {
             <h4>Add A Break</h4>
             <div className='break-container'>
                 <button id='btn' onClick={breakHandler}>10s</button>
-                <button><span>15s</span></button>
-                <button><span>20s</span></button>
-                <button><span>25s</span></button>
+                <button id='btn' onClick={breakHandler}>15s</button>
+                <button id='btn' onClick={breakHandler}>20s</button>
+                <button id='btn' onClick={breakHandler}>25s</button>
             </div>
             <p>Break Time : {second}</p>
         </div>
